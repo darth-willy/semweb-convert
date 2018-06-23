@@ -34,7 +34,7 @@ public class Construct2Jena extends Construct2 {
 	private int ctr = 0;
 
 	public Construct2Jena() {
-		super("Jena");
+		super("Construct2Jena");
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })

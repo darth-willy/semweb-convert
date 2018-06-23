@@ -36,7 +36,7 @@ public class Construct2Nools extends Construct2 {
 	private int ctr = 0;
 
 	public Construct2Nools() {
-		super("Nools");
+		super("Construct2Nools");
 	}
 
 	public String convertRules(String rules) throws ConvertException {

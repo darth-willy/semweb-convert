@@ -61,7 +61,7 @@ public class MainServlet extends HttpServlet {
 	private Gson gson;
 	private GsonBuilder gsonBuilder;
 
-	private Map<String, RuleConverter> spin2s = new HashMap<String, RuleConverter>();
+	private Map<String, RuleConverter> convert2s = new HashMap<String, RuleConverter>();
 	private Map<String, DataConverter> rdf2s = new HashMap<String, DataConverter>();
 
 	private Logger log;
@@ -81,7 +81,7 @@ public class MainServlet extends HttpServlet {
 
 			Config.init(res);
 
-			loadConverters("construct2s.txt", spin2s);
+			loadConverters("construct2s.txt", convert2s);
 			loadConverters("rdf2s.txt", rdf2s);
 
 		} catch (IOException e) {
@@ -232,7 +232,7 @@ public class MainServlet extends HttpServlet {
 			errorMsg = "Error converting rules: converter for '" + from + "' not registered";
 
 		} else if (to != null) {
-			conv = spin2s.get(to);
+			conv = convert2s.get(to);
 
 			if (conv == null)
 				errorMsg = "Error converting rules: converter for '" + to + "' not registered";

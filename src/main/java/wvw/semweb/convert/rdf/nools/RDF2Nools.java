@@ -36,7 +36,7 @@ public class RDF2Nools extends DataConverter {
 	private Map<String, String> varMap = new HashMap<String, String>();
 
 	public RDF2Nools() {
-		super("Nools");
+		super("RDF2Nools");
 	}
 
 	protected String getLineSeparator() {
