@@ -1,0 +1,33 @@
+<http://example.org/CI0> <http://www.w3.org/2002/07/owl#intersectionOf> <http://example.org/BN01> .
+<http://example.org/BN01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC01> .
+<http://example.org/BN01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN02> .
+<http://example.org/BN02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC02> .
+<http://example.org/BN02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN03> .
+<http://example.org/BN03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC03> .
+<http://example.org/BN03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN04> .
+<http://example.org/BN04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC04> .
+<http://example.org/BN04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://example.org/PC1> <http://www.w3.org/2002/07/owl#propertyChainAxiom> <http://example.org/BN11> .
+<http://example.org/BN11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP11> .
+<http://example.org/BN11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN12> .
+<http://example.org/BN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP12> .
+<http://example.org/BN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN13> .
+<http://example.org/BN13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP13> .
+<http://example.org/BN13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://example.org/HK2> <http://www.w3.org/2002/07/owl#hasKey> <http://example.org/BN21> .
+<http://example.org/BN21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP21> .
+<http://example.org/BN21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN22> .
+<http://example.org/BN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP22> .
+<http://example.org/BN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN23> .
+<http://example.org/BN23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MP23> .
+<http://example.org/BN23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://example.org/CI3> <http://www.w3.org/2002/07/owl#intersectionOf> <http://example.org/BN31> .
+<http://example.org/BN31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC31> .
+<http://example.org/BN31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN32> .
+<http://example.org/BN32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC32> .
+<http://example.org/BN32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://example.org/BN33> .
+<http://example.org/BN33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/MC33> .
+<http://example.org/BN33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
