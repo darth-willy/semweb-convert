@@ -30,7 +30,7 @@ import wvw.semweb.convert.datalog.DatalogUtils;
 public class Construct2Datalog extends Construct2 {
 
 	public Construct2Datalog() {
-		super("Construct2Datalog");
+		super("Datalog");
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })

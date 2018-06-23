@@ -30,7 +30,7 @@ import wvw.semweb.convert.datalog.DatalogUtils;
 public class RDF2Datalog extends DataConverter {
 
 	public RDF2Datalog() {
-		super("RDF2Datalog");
+		super("Datalog");
 	}
 	
 	protected String convert(Reader reader, String syntax)

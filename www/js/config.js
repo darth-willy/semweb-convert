@@ -21,7 +21,7 @@
 config = {
 
 	webService : {
-		url : "http://localhost:8080/semweb-convert/",
+		url : "http://localhost:8080/SemWebConvert/",
 		timeout : 120000
 	}
 };
