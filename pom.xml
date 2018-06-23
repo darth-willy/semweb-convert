@@ -146,5 +146,5 @@
 	<build>
 		<finalName>SemWebConvert</finalName>
 	</build>
-	<artifactId>convert</artifactId>
+	<artifactId>semweb-convert</artifactId>
 </project>
